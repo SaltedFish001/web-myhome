@@ -1,23 +1,64 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8" />
+		<meta charset="utf-8">
 		<title></title>
 	</head>
 	<body>
-		<table border="1">
-			<tr>
-				<tr>姓名</tr>
-				<tr>人民币</tr>
-			</tr>
-			<tr>
-				<tr>张三</tr>
-				<tr>100</tr>
-			</tr>
-			<tr>
-				<tr>李四</tr>
-				<tr>80</tr>
-			</tr>
-			<table></table>
+		<form>
+			<table border="1">
+				<tr>
+					<th colspan="2">信 息 统 计 表</th>
+				</tr>
+				<tr>
+					<td>姓名:</td>
+					<td><input></td>
+				</tr>
+				<tr>
+					<td>年龄:</td>
+					<td><input></td>
+				</tr>
+				<tr>
+					<td>性别:</td>
+					<td>
+						<input type="radio" name="sex" >女
+						<input type="radio" name="sex" >男
+					</td>
+				</tr>
+				<tr>
+					<td>爱好:</td>
+					<td>
+						<p><input type="checkbox" name="love">旅游</p>
+						<p><input type="checkbox" name="love">登山</p>
+						<p><input type="checkbox" name ="love">健身</p>
+						<p><input type="checkbox" name ="love">上网</p>
+						<p><input type="checkbox" name="love">游泳</p>
+					</td>
+				</tr>
+				<tr>
+					<td>学历:</td>
+					<td>
+						<select>
+							<option>--请选择--</option>
+							<option>高中</option>
+							<option>专科</option>
+							<option>本科</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>自我介绍:</td>
+					<td><textarea>自我介绍</textarea></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type="submit" value="提交">
+						<input type="submit" value="重置">
+					</td>
+				</tr>
+			</table>
+		</form>
 	</body>
 </html>
